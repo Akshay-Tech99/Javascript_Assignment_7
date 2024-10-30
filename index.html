@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+    }
+    .main{
+      font-size:20px;
+      text-align:center;
+      border:5px groove navy;
+      border-radius:50px;
+      margin-top:20px;
+
+    }
+    h1{
+      text-align:center;
+      font-size:50px;
+      color:red;
+      margin-top:20px;
+
+    }
+  </style>
+</head>
+<body>
+  <h1 >Switch Statement</h1>
+  <div class="main">
+    <p><u>*Program 1*</u><br>
+      <br>
+      var age=21<br>
+         var citizenship=true<br>
+         if(age>=21 && citizenship){<br>
+             console.log("Can Vote")<br>
+         }<br>
+         else{<br>
+             console.log("Can not Vote")<br>
+
+         }<br><br>
+         o/p:<br><br>
+         "Can Vote"<br>
+         *--------------------------------------------------------------------------*
+
+    </p>
+    <p><u>*Program 2*</u><br>
+      <br>
+       var age=21<br>
+         var hasinvitation=!true<br>
+         if(age>=21 ||  hasinvitation){<br>
+             console.log("can enter club")<br>
+         }<br>
+         else{<br>
+             console.log("can not enter club")<br>
+
+         }<br><br>
+         o/p:<br><br>
+         "can enter club"<br>
+         *--------------------------------------------------------------------------*
+         
+    </p>
+    <p><u>*Program 3*</u><br>
+      <br>
+    var ismember=false<br>
+    var age=70<br>
+    if(ismember || age>=65){<br>
+        console.log("Is Eligible For Discount")<br>
+    }<br>
+    else{<br>
+        console.log("Is not Eligible For Discount")<br>
+    }<br><br>
+         o/p:<br><br>
+         "Is Eligible For Discount"<br>
+         *--------------------------------------------------------------------------*
+         
+    </p>
+    <p><u>*Program 4*</u><br>
+      <br>
+     var gpa=3.6<br>
+     var extracurriculars=true<br>
+     var recommendation=false<br>
+     if(gpa>=3.6 && extracurriculars || recommendation){<br>
+         console.log("is eligible for scholarship")<br>
+     }<br>
+     else{<br>
+         console.log("is not eligible for scholarship")<br>
+
+     }<br><br>
+         o/p:<br><br>
+         "is eligible for scholarship"<br>
+         
+    </p>
+  </div>
+</body>
+</html>
